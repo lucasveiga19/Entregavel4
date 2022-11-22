@@ -1,4 +1,3 @@
-
 function swap(items, leftIndex, rightIndex){
     var temp = items[leftIndex];
     items[leftIndex] = items[rightIndex];
@@ -38,3 +37,5 @@ function quickSort(items, left, right) {
     }
     return items;
 }
+
+module.exports = quickSort;

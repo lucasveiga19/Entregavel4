@@ -26,3 +26,5 @@ function fibonacci(quantidadeNumero){
   return resultado;
   
 }
+
+module.exports = fibonacci;

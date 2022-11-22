@@ -6,3 +6,13 @@ function numPrimo (valor){
         }
     }
 }
+
+function validarNumPrimo(valor){
+    if(numPrimo(valor)){
+        return "O numero"+valor+" e primo";
+    } else {
+        return "O numero"+valor+" nao e primo";
+    }
+}
+
+module.exports = validarNumPrimo;

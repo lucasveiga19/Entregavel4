@@ -1,13 +1,11 @@
-function somatorio(valor){
-    var valores;
+function somatorio(valores){
     var soma = 0;
-    var i = 0;
-    
-    while(i<valor){
-        valores = parseInt(prompt("Informe um número"));
-        soma = soma + valores;
-        i++;
+
+    for(var i = 0; i <= valores; i++){
+        soma = soma + i;
     }
     
-    return "A soma dos "+entrada+" números é "+soma;
+    return [soma];
 }
+
+module.exports = somatorio;
